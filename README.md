@@ -165,4 +165,4 @@ written to the folder containing the `.exe` at runtime.
 
 ## License
 
-MIT — see `hts.py` header for full text.
+MIT — see `LICENSE` file for full text.
