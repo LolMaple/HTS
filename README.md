@@ -35,7 +35,7 @@ All metrics are written to `tracking_logs.csv` at the end of each session and pe
 
 ```bash
 # 1. Clone / download this repository
-git clone https://github.com/your-org/hand-tracking-system.git
+git clone https://github.com/LolMaple/HTS.git
 cd hand-tracking-system
 
 # 2. (Recommended) Create a virtual environment
@@ -51,6 +51,9 @@ pip install -r requirements.txt
 wget -q https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task     # Windows
 curl -sO https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task    # macOS / Linux
 ```
+
+> **MediaPipe Hand Landmark Model** — or manually download from [Latest](https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task)
+> and place in same directory as hts.py
 
 > **Intel RealSense drivers** — install the [Intel RealSense SDK 2.0](https://github.com/IntelRealSense/librealsense/releases)
 > before installing `pyrealsense2` via pip.  On Windows, plug in the camera
